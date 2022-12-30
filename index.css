@@ -1,0 +1,119 @@
+#basket{
+    background-image: url("bg.png");
+    border-radius: 10px;
+}
+#navbar{
+    width: 100%;
+    height: 120px;
+    background-image: url("HaridwAr\ voice.png");
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(213, 212, 212);
+
+    border-radius: 10px;
+    border: 1px solid rgb(242, 239, 239);
+}
+#img1{
+    height: 100px;
+    
+}
+#img2{
+    height: 120px;
+}
+#block{
+    /* display: none; */
+    margin-top: 15px;
+    border: 1px solid rgb(213, 212, 212);
+    background-color: rgb(230, 227, 223);
+    color: orange;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+
+    border-radius: 10px;
+    border: 1px solid rgb(242, 239, 239);
+}
+ 
+#date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    text-decoration: underline;
+
+    /* border-radius: 10px;
+    border: 1px solid rgb(242, 239, 239); */
+}
+#big{
+    border-radius: 10px;
+    /* border: 0.5px solid rgb(242, 239, 239); */
+    padding-bottom: 50px;
+    
+}
+#container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.box{
+    width: 200px;
+    height: auto;
+    border:1px solid black;
+    border-radius: 8px;
+    background-image: url("detailBackground.png");
+}
+.image{
+    height: 200px;
+    width: 200px;
+    /* background-image: url("Untitled\ design.png"); */
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.detail{
+    height: auto;
+}
+.service{
+    height: auto;
+    font-size: 31px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 5px;
+    padding: 6px;
+    font-family: 'Dancing Script', cursive;
+    /* background-color: orange; */
+    color: rgb(84, 7, 91);
+    text-decoration: underline;
+    /* color:white; */
+}
+.time{
+    height: auto;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    margin-top: 5px;
+    font-family: sans-serif;
+    color: rgb(116, 71, 29);
+    text-decoration: underline;
+    /* color: white; */
+}
+.name1{
+    height:auto;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:2px;
+    font-family: 'Prosto One', cursive;
+    padding-bottom: 5px;
+    color: orangered;text-decoration: underline;
+    /* color:white; */
+}
